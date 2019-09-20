@@ -74,10 +74,15 @@ a {
 */
 
 footer {
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 0;
   width: 100%;
 }
 
-#footer {
+#footer1 {
 bottom: -5px;
 position: fixed;
 padding-left: 25px;
@@ -88,22 +93,17 @@ font-size: 80%;
 }
 
 /* WORD SPACING FOOTER LEFT */
-#footer li  {
+#footer1 li  {
   
 }
 
-#footer li {
+#footer1 li {
   display: inline-block;
   padding: 7px; 
 }
 
 .nav_footer {
   color: #404040;
-}
-
-
-footer {
-  width: 100%;
 }
 
 #footer2 {
@@ -132,14 +132,20 @@ word-spacing: .5em;
 }
 
 
-
-
 /* underline text when hover*/
 li.nav-links a:hover {
   text-decoration: underline;
 }
 
 li.nav-links2 a:hover {
+  text-decoration: underline;
+}
+
+li.nav_footer a:hover {
+  text-decoration: underline;
+}
+
+li.nav_footer2 a:hover {
   text-decoration: underline;
 }
 
@@ -165,6 +171,11 @@ li.nav-links2 a:hover {
   
 }
 
+
+
+
+
+
 /* FORM AREA */
 .form {
   text-align: center;
@@ -174,6 +185,7 @@ li.nav-links2 a:hover {
   width: 450px;
   line-height: 32px;
   padding: 20px 10px;
+  border-radius: 10px;
 }
 
 .form #form-search {
